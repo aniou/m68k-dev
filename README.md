@@ -36,13 +36,13 @@ Edit `~/a2560x/src/FUZIX/Makefile` and set `TARGET` variable to `68knano`.
 Start container:
 
 ```bash
-$ cd ~/a2560x/src
+$ cd ~/a2560x/src/m68k-dev
 $ ./run.sh
 ++ podman run -it --rm --userns=keep-id -v /home/user/a2560x/src:/src:rw,U m68k-dev:0.0.5
 ```
 
-Following commands should be run in container. Host source directory 
-`~/a2560x/src` will be mounted as `/src` in container:
+Run commands in container.
+Host source directory `~/a2560x/src` will be mounted as `/src`.
 
 ```bash
 $ cd /src/FUZIX
@@ -55,7 +55,7 @@ $ exit
 
 ## run emulator
 
-Run commands on host
+Run commands on host.
 
 ```bash
 $ cd ~/a2560x/src/EmulatorKit
