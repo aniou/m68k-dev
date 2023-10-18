@@ -42,6 +42,7 @@ $ ./run.sh
 ```
 
 Run commands in container.
+
 Host source directory `~/a2560x/src` will be mounted as `/src`.
 
 ```bash
