@@ -7,6 +7,8 @@ Docker container with m68k compiler
 There is a single assumption that sources are located in `$HOME/a2560x/src`,
 to adjust that change mapping in `run.sh` script, if neccessary.
 
+**Warning:** `run.sh` and `budild.sh` expects `podman` to be installed.
+
 ```bash
 $ podman -v
 podman version 3.4.4
